@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dissonant Echoes - Official Landing Page</title>
+    <style>
+        @font-face {
+            font-family: 'Awexbmp'; 
+            src: url('assets/fonts/Awexbmp.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        :root {
+            --bg-color: #0a0a0a;
+            --card-bg: #141414;
+            --text-color: #e0e0e0;
+            --accent-color: #ff3333;
+            --accent-hover: #cc0000;
+            --muted-text: #888888;
+        }
+
+        body {
+            font-family: 'Awexbmp', AtariGames, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px 20px 20px;
+            max-width: 800px;
+        }
+
+        .logo-placeholder {
+            color: var(--accent-color);
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--muted-text);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        main {
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        section {
+            background-color: var(--card-bg);
+            border-left: 2px solid var(--accent-color);
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            color: var(--accent-color);
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        .status-badge {
+            display: inline-block;
+            background-color: rgba(255, 51, 51, 0.1);
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 5px 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+            padding: 40px 20px;
+            box-sizing: border-box;
+            color: var(--muted-text);
+            font-size: 0.9rem;
+            border-top: 1px solid #222;
+            margin-top: auto;
+        }
+
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .privacy-box {
+            font-size: 0.85rem;
+            text-align: left;
+            background-color: #0f0f0f;
+            padding: 20px;
+            border-radius: 6px;
+            margin-top: 20px;
+            border: 1px solid #222;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img class="logo-placeholder"
+        src="./assets/img/DissonantEchoes_Logo.png"
+        alt="Sample placeholder image"
+        width="750"
+        height="320"
+        />
+        <div class="subtitle">Echoes from another time</div>
+    </header>
+
+    <main>
+        <section>
+            <h2>About the Game</h2>
+            <p><strong>DISSONANT ECHOES</strong> is an upcoming 3D asymmetrical horror game (ASYM) created by Peater-The-Plant. Drawing inspiration from games of the genre like <em>Sonic.EXE: The Disaster</em> by Outlaik and <em>Sonic.EXE: Outcome Memories</em> by 1sobbe, the game carves out its own path. Unlike many titles within the genre, its cast does not rely on existing intellectual properties or classic myths (Other than references). Instead, it features entirely original characters, including custom variants of original characters (OCs) created by the developer’s community and friends.</p>
+        </section>
+
+        <section>
+            <h2>Gameplay & Objectives</h2>
+            <p>The primary objective of DISSONANT ECHOES is pure survival. In the core game mode, a team of up to 7 Survivors must cooperate, manage resources, and play strategically to complete objectives and unlock the exit. They face off against a single, powerful Killer.</p>
+            <p>While certain mechanics may allow Survivors to temporarily stand their ground, direct confrontation is heavily discouraged. Teamwork and coordination significantly increase your chances of survival compared to attempting to fight the Killer alone. Special alternative game modes are planned for future rotation.</p>
+        </section>
+
+        <section>
+            <h2>Development Update: Moving to Unreal Engine 5</h2>
+            <div class="status-badge">In Development - Rebuilt from Scratch</div>
+            <p>The original prototype version of the game has been indefinitely cancelled to allow the developer to distance themselves from the legacy platform ecosystem. </p>
+            <p>However, the vision is far from dead. DISSONANT ECHOES is currently being actively rebuilt from the ground up in <strong>Unreal Engine 5</strong>. This transition brings a completely overhauled art style, superior performance, and a more robust infrastructure while preserving the fundamental gameplay concepts and original lore that inspired the project.</p>
+            <p>This is a project made entirely as a hobby by Peater-The-Plant, there won't be any micro-transactions, nor you ever will need to spend a dime to play the game.</p>
+            <p><em>Please note: There are currently no public playable builds available. Stay tuned for future development updates.</em></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 THE DISSONANT ECHOES TEAM. All rights reserved.</p>
+        <p>Built for Unreal Engine 5 Ecosystem Integration.</p>
+        
+        <div class="privacy-box" id="privacy-policy">
+            <h3 style="color: var(--text-color); margin-top: 0;">Privacy Policy</h3>
+            <p><strong>Last Updated: June 2026</strong></p>
+            <p>This Privacy Policy explains how DISSONANT ECHOES handles user data. Because this application integrates with Epic Online Services (EOS) to facilitate peer-to-peer multiplayer networking, authenticating your identity is required to establish connections.</p>
+            <p><strong>1. Data Collection:</strong> We do not collect, harvest, or store any personal sensitive data (such as names, emails, or financial information). When logging in via Epic Games, the application accesses your unique Epic Account ID and public display name solely to authenticate your gaming session, host lobbies, and allow friends to join your game.</p>
+            <p><strong>2. Data Usage & Storage:</strong> Any player data (such as game statistics, configurations, or progression statuses) is processed locally on your machine or transiently through peer-to-peer network instances. No data is shared with third parties or sold for commercial use.</p>
+            <p><strong>3. Third-Party Services:</strong> Multiplayer connectivity is powered by Epic Online Services. Data handled by Epic Games during authentication is subject to the <a href="https://www.epicgames.com/site/en-US/privacypolicy" target="_blank">Epic Games Privacy Policy</a>.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
